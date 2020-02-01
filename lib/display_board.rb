@@ -5,11 +5,11 @@ def display_board(board)
   cell = "   "
   pipe = "|"
   dash = "-----------"
-  puts "#{cell}","#{pipe}","#{cell}","#{pipe}","#{cell}"
+  puts "#{board[0]}","#{pipe}","#{board[1]}","#{pipe}","#{board[2]}"
   puts "#{dash}"
-  puts "#{cell}","#{pipe}","#{cell}","#{pipe}","#{cell}"
+  puts "#{board[3]}","#{pipe}","#{board[4]}","#{pipe}","#{board[5]}"
   puts "#{dash}"
-  puts "#{cell}","#{pipe}","#{cell}","#{pipe}","#{cell}"
+  puts "#{board[6]}","#{pipe}","#{board[7]}","#{pipe}","#{board[8]}"
 end
 
 
